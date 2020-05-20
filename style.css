@@ -57,7 +57,7 @@ p {
 
 header {
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
@@ -480,6 +480,10 @@ footer {
 @media screen and (min-width: 900px) {
   section {
     padding: 7, 9rem;
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.8);
   }
 
   .menu-toggle {
